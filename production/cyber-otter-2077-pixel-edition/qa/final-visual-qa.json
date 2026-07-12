@@ -1,0 +1,17 @@
+{
+  "visual_qa": "pass",
+  "identity": "pass",
+  "pixel_style": "pass",
+  "rows_0_8": "pass",
+  "directions": "pass",
+  "hard_cardinals": "pass",
+  "loops": "pass",
+  "artifacts": "pass",
+  "qa_note": "Stable cyber-otter identity and intentional hard-edged pixel art persist across every frame. Rows 0-8 match official semantics, and the 16-direction cycle is coherent with unmistakable hard cardinals.",
+  "review_warnings": [
+    "Minor blind ambiguity affects intermediate directions only; labeled clockwise progression remains coherent.",
+    "Continuity flags resolve visually to intentional foot separation and harmless metric variation, with no snap, clipping, or identity pop."
+  ],
+  "repair_rows": "none",
+  "repair_notes": "none"
+}

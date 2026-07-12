@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Eyes, muzzle, and nose lift vertically; hard cardinal passes."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Nose shifts screen-right while eyes and muzzle remain raised."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Face turns right and gaze stays clearly elevated."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Muzzle points right with a slightly raised eye/nose axis."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Muzzle and nose unmistakably point screen-right; hard cardinal passes."},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Muzzle remains right while eyes and head begin lowering."},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Nose remains right of center and head/gaze angle downward."},
+    {"direction":"157.5","verdict":"warning","expected":"down-right","observed":"down with subtle right axis","reason":"Right cue is blind-ambiguous, but the ordered progression to 180 confirms the quadrant."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Head, eyes, and nose unmistakably aim downward; hard cardinal passes."},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Muzzle shifts screen-left while gaze remains lowered."},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Face turns left while head and eyes point down."},
+    {"direction":"247.5","verdict":"warning","expected":"down-left","observed":"left with subtle down axis","reason":"Left cue is clear; labeled 225-to-270 progression confirms the subtle vertical axis."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Muzzle and nose unmistakably point screen-left; hard cardinal passes."},
+    {"direction":"292.5","verdict":"warning","expected":"up-left","observed":"left with subtle up axis","reason":"Left cue is clear; labeled 270-to-315 progression confirms the subtle vertical axis."},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Nose remains screen-left while eyes and muzzle are visibly raised."},
+    {"direction":"337.5","verdict":"warning","expected":"up-left","observed":"up with subtle left axis","reason":"Up cue is clear and the 315-to-337.5-to-000 sequence smoothly reduces left yaw without reversal."}
+  ],
+  "review_warnings": [
+    "Intermediate blind uncertainty at 157.5, 247.5, 292.5, and 337.5 is accepted from labeled ordered-loop evidence.",
+    "Continuity metric outliers and the 8.3px wrap center shift have no visible snap, scale pop, identity change, or reversal.",
+    "Reported y=200-201 alpha-hole candidates are intentional negative space between feet/tail, not body seams."
+  ]
+}

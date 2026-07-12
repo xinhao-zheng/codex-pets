@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "completed_at": "2026-07-11T20:19:55.8294550Z",
+  "pet_id": "cyber-otter-2077",
+  "display_name": "Cyber Otter 2077",
+  "spriteVersionNumber": 2,
+  "run_dir": ".",
+  "spritesheet": ".\\final\\spritesheet-extended.webp",
+  "validation": ".\\final\\validation-extended.json",
+  "chroma_despill": ".\\qa\\chroma-despill-extended.json",
+  "contact_sheet": ".\\qa\\contact-sheet-extended.png",
+  "direction_sheet": ".\\qa\\look-directions.png",
+  "direction_semantics": ".\\qa\\direction-semantics.json",
+  "blind_direction_validation": ".\\qa\\direction-blind-validation.json",
+  "continuity": ".\\qa\\look-continuity.json",
+  "review": ".\\qa\\review.json",
+  "final_visual_qa": ".\\qa\\final-visual-qa.json",
+  "repository_package": "../../cyber-otter-2077",
+  "installed_package": "<CODEX_HOME>/pets/cyber-otter-2077",
+  "package_sha256": "65F77256DA9C28DFEA413799E3E97509B9499FA246D5B18928E1F4F7BE4E4BA7",
+  "style": "official-compatible-polished-mascot",
+  "style_preset": "3d-toy"
+}

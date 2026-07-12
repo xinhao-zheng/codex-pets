@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"up","reason":"Lifted muzzle and gaze are unmistakably vertical; hard cardinal passes."},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Raised muzzle begins shifting screen-right in the ordered loop."},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Head turn and eye line clearly combine rightward yaw with elevation."},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Strong screen-right profile retains a visibly lifted muzzle."},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"right","reason":"Nose and muzzle unmistakably project screen-right; hard cardinal passes."},
+    {"direction":"112.5","verdict":"warning","expected":"down-right","observed":"down with subtle right axis","reason":"Down cue is clear; ordered 090-to-135 progression supplies the weaker right component."},
+    {"direction":"135","verdict":"warning","expected":"down-right","observed":"down with subtle right axis","reason":"The bowed face remains on the screen-right half of the clockwise transition."},
+    {"direction":"157.5","verdict":"warning","expected":"down-right","observed":"down with very subtle right axis","reason":"Near-cardinal transition intentionally converges toward 180 without reversal."},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down","reason":"Bowed head, eyes, and nose unmistakably aim downward; hard cardinal passes."},
+    {"direction":"202.5","verdict":"warning","expected":"down-left","observed":"down with subtle left axis","reason":"The first post-180 pose begins the screen-left return while remaining strongly down."},
+    {"direction":"225","verdict":"warning","expected":"down-left","observed":"left with subtle down axis","reason":"Left projection is clear and the lowered eye line preserves the downward component."},
+    {"direction":"247.5","verdict":"warning","expected":"down-left","observed":"left with subtle down axis","reason":"Strong screen-left profile approaches the 270 cardinal with a residual lowered axis."},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"left","reason":"Nose and muzzle unmistakably project screen-left; hard cardinal passes."},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Screen-left muzzle and raised gaze are both independently readable."},
+    {"direction":"315","verdict":"warning","expected":"up-left","observed":"left with subtle up axis","reason":"Left cue stays clear while the ordered loop raises the head toward 000."},
+    {"direction":"337.5","verdict":"warning","expected":"up-left","observed":"up with very subtle left axis","reason":"Near-cardinal transition smoothly reduces left yaw before the 000 wrap."}
+  ],
+  "review_warnings": [
+    "Blind ambiguity is limited to intermediate near-cardinal axes; all four hard cardinal pairs pass.",
+    "The labeled clockwise sequence resolves the intermediate cues without reversal or identity drift.",
+    "Continuity alpha-hole candidates are intentional negative space between feet; metric outliers show no visible snap, clipping, or scale pop."
+  ]
+}

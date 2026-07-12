@@ -14,8 +14,8 @@ runtime package runs; the production record makes it answerable.
 
 | Pet | Rendering style | Status |
 |---|---|---|
-| [`cyber-otter-2077`](cyber-otter-2077/) | neon-circuit cyber otter · smooth · 霓虹赛博海獭 · 平滑 | active · 已发布 |
-| [`cyber-otter-2077-pixel-edition`](cyber-otter-2077-pixel-edition/) | neon-circuit cyber otter · pixel · 霓虹赛博海獭 · 像素 | active · 已发布 |
+| [`cyber-otter-2077`](cyber-otter-2077/) | fishing the endless sea of time · smooth · 无尽时间之海垂钓 · 平滑 | active · 已发布 |
+| [`cyber-otter-2077-pixel-edition`](cyber-otter-2077-pixel-edition/) | fishing the endless sea of time · pixel · 无尽时间之海垂钓 · 像素 | active · 已发布 |
 
 Members are added beside members, never under a generic `pets/` wrapper. Shared
 character identity is optional; the catalog only requires the atlas contract.

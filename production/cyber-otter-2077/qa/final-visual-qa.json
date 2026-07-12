@@ -1,0 +1,7 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "Rows 0-8 preserve identity, state-specific motion, clean cadence, and correct facing with no forbidden effects; all hard cardinals pass and the 16-pose loop remains ordered and coherent.",
+  "review_warnings": "Reviewed intermediate direction and continuity warnings are recorded in direction-semantics.json; none is a hard failure.",
+  "repair_rows": "none",
+  "repair_notes": "none"
+}
