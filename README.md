@@ -191,5 +191,4 @@ Xinhao Zheng 所有。
 
 ---
 
-*The pet is two files. The proof is everything that prevents those two files from
-becoming arbitrary. · 宠物只有两个文件；证明，是阻止这两个文件沦为任意之物的一切。*
+*The pet is two files. The rest is the proof. · 宠物只有两个文件。其余即是证明。*
