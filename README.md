@@ -26,11 +26,11 @@ character identity is optional; the catalog only requires the atlas contract.
 
 ## Contract | 契约
 
-The claim is narrow: a release is valid only when its two-file runtime payload
-matches a reviewed production run and can be rebuilt pixel for pixel from frozen
-release cells. File presence alone proves less.
-主张刻意收窄：只有当两文件运行包与已审阅的生产记录一致，且能由冻结 release cells
-逐像素重建时，发布才成立。仅有文件，不构成证明。
+The claim is narrow: a release is valid only when its runtime package matches a
+reviewed production run and can be rebuilt pixel for pixel from frozen release
+cells. File presence alone proves less.
+主张刻意收窄：只有当运行包与已审阅的生产记录一致，且能由冻结 release cells 逐像素
+重建时，发布才成立。仅有文件，不构成证明。
 
 | Surface | Contains | Consequence |
 |---|---|---|
@@ -139,7 +139,7 @@ Review the change first. Then move the hash.
 
 | Gate | Required result |
 |---|---|
-| Runtime shape | two files; RGBA WebP; exact 11-row atlas geometry · 两文件、RGBA WebP、11 行图集几何精确 |
+| Runtime shape | `pet.json` + `spritesheet.webp`; RGBA WebP; exact 11-row atlas geometry · 运行包形状、RGBA WebP、11 行图集几何精确 |
 | State cells | every used slot populated; every unused slot transparent · 使用格非空、空闲格透明 |
 | Production graph | all jobs complete; every input and output repository-relative · 作业完成、输入输出均为相对路径 |
 | Rebuild | frozen cells reproduce runtime RGBA pixels · 冻结单元重建运行时像素 |
@@ -191,4 +191,4 @@ Xinhao Zheng 所有。
 
 ---
 
-*The pet is two files. The rest is the proof. · 宠物只有两个文件。其余即是证明。*
+*What installs is the package. What holds is the record. · 可安装的是运行包；成立的是生产记录。*
