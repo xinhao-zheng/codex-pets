@@ -1,0 +1,2 @@
+# scripts/rebuild_atlas.py, scripts/pets.py
+Pillow>=10.0

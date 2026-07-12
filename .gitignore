@@ -1,0 +1,18 @@
+# Python cache · Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Deterministic build output · 可再生构建产物
+build/
+dist/
+
+# Local calibration overlay; never part of the GitHub tree.
+# 本地校准叠加层；不进入 GitHub 树。
+pet-build/
+
+# OS / editor · 系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
